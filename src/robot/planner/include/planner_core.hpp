@@ -3,17 +3,17 @@
 
 #include "rclcpp/rclcpp.hpp"
 
-namespace robot
-{
+namespace robot {
 
 class PlannerCore {
-  public:
-    explicit PlannerCore(const rclcpp::Logger& logger);
+public:
+    PlannerCore(const rclcpp::Logger& logger);
+    ~PlannerCore();
 
-  private:
+private:
     rclcpp::Logger logger_;
 };
 
-}  
+}
 
-#endif  
+#endif

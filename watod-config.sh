@@ -15,7 +15,7 @@
 ##   - robot            :   starts up robot nodes
 ##   - samples          :   starts up sample nodes for reference
 
-# ACTIVE_MODULES=""
+ ACTIVE_MODULES="robot gazebo vis_tools"
 
 ################################# MODE OF OPERATION #################################
 ## Possible modes of operation when running watod.
@@ -27,7 +27,7 @@
 
 ############################## ADVANCED CONFIGURATIONS ##############################
 ## Name to append to docker containers. DEFAULT = "<your_watcloud_username>"
-# COMPOSE_PROJECT_NAME=""
+ COMPOSE_PROJECT_NAME="watod_quaden"
 
 ## Tag to use. Images are formatted as <IMAGE_NAME>:<TAG> with forward slashes replaced with dashes.
 ## DEFAULT = "<your_current_github_branch>"
